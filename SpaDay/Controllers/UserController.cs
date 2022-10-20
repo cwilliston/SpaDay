@@ -48,7 +48,7 @@ namespace SpaDay.Controllers
                 {
                     ViewBag.error = "Passwords do not match! Try again!";
 
-                    return View("Add");
+                    return View("Add", addUserViewModel);
                 }
             }
 
